@@ -1,0 +1,11 @@
+process.env.NODE_ENV = 'test';
+process.env.PORT = '3333';
+process.env.DATABASE_HOST = 'localhost';
+process.env.DATABASE_PORT = '5432';
+process.env.DATABASE_USER = 'postgres';
+process.env.DATABASE_PASSWORD = 'docker';
+process.env.DATABASE_NAME = 'api_template';
+process.env.JWT_ACCESS_SECRET = 'test_access_secret';
+process.env.JWT_REFRESH_SECRET = 'test_refresh_secret';
+process.env.JWT_ACCESS_EXPIRES_IN = '15m';
+process.env.JWT_REFRESH_EXPIRES_IN = '7d';
